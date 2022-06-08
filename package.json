@@ -1,0 +1,22 @@
+{
+  "name": "mongodb-training-jun-2022",
+  "version": "1.0.0",
+  "description": "Contacts agenda program with CLI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node practice1.js",
+    "practice1": "node practice1.js"
+  },
+  "keywords": [
+    "contacts",
+    "mongodb",
+    "cli",
+    "node"
+  ],
+  "author": "Marco Mendao",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mongodb": "^4.6.0"
+  }
+}
