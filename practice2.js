@@ -9,6 +9,16 @@ client.connect()
 // Criar contactos
 // Apagar contactos
 
+function listContacts(contactList){
+    // db.business.find()
+    // db -> database
+    // business -> collection
+    // find -> operation
+
+    const database = client.db('contacts')
+    const collection = database.collection(contactList)
+}
+
 function options(){
 
     const questions = [
@@ -31,7 +41,7 @@ function options(){
 
         switch(action){
             case "List Contacts":
-                // listContacts()
+                listContacts()
                 break;
             case "Create Contact":
                // createContact()
