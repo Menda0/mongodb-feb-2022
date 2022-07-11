@@ -7,7 +7,8 @@
     "start": "node practice1.js",
     "practice1": "node practice1.js",
     "practice2": "node practice2.js",
-    "practice3": "node practice3.js"
+    "practice3": "node practice3.js",
+    "practice4": "node practice4.js"
   },
   "keywords": [
     "contacts",
