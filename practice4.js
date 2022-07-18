@@ -12,13 +12,13 @@
 // Company, Numbers
 // MoOngy, ["+351 54634566345", "+351 455325324"]
 
+// 4. Create an interface that list all contacts with organization info
+
 // 1. Training aggregate
 // 2. Training operation $group
 // 2.1 Training $sum
 // 2.2 Training $push or $addToSet
 // 3. Training $lokup
-
-// 4. Create an interface that list all contacts with organization info
 
 const inquirer = require('inquirer')
 const MongoClient = require("mongodb").MongoClient
